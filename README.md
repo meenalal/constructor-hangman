@@ -21,26 +21,26 @@ Demo
 Video demo: https://www.youtube.com/watch?v=3F9VjnIJ6jI&feature=youtu.be
 
 About this project
---------------------------------------------------     This project is a command line version of the classic Hangman game. This game uses similar logic to the browser-based Hangman game I created, but with this game, I created a command line version using Javascript constructor functions to create letter and word objects, the inquirer npm package to prompt users to guess a letter, and Node.js to run the Javascript code from the command line. For more information on how this project was constructed and put together, see Structure of the project.
+  This project is a command line version of the classic Hangman game. This game uses similar logic to the browser-based Hangman game I created, but with this game, I created a command line version using Javascript constructor functions to create letter and word objects, the inquirer npm package to prompt users to guess a letter, and Node.js to run the Javascript code from the command line. For more information on how this project was constructed and put together, see Structure of the project.
 
 Getting started
---------------------------------------------------      To play the game from your computer and/or contribute to this project, perform the following steps:
+  To play the game from your computer and/or contribute to this project, perform the following steps:
 
    1.Clone the repository
    2.Install Node.js
    3.Install the dependencies
    
 Clone the repository
---------------------------------------------------      The first step is to clone the project repository to a local directory on your computer. To clone the repository, run the following commands:
+   The first step is to clone the project repository to a local directory on your computer. To clone the repository, run the following commands:
 
   git clone https://github.com/philipstubbs13/constructor-hangman.git
   cd constructor-hangman
   
 Install Node.js
---------------------------------------------------       If you don't already have Node.js installed on your computer, you can install the latest version here: https://nodejs.org/en/.
+   If you don't already have Node.js installed on your computer, you can install the latest version here: https://nodejs.org/en/.
 
 Structure of the project
---------------------------------------------------     After you clone the repository, navigate to the project root directory (constructor-hangman). The project directory structure is set up as follows:
+  After you clone the repository, navigate to the project root directory (constructor-hangman). The project directory structure is set up as follows:
 
   .Letter.js: Contains a constructor, Letter. This constructor displays an underlying character or a blank placeholder (underscore), depending on whether or not the user has guessed the letter. This constructor includes:
 
